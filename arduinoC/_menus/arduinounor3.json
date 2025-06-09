@@ -76,7 +76,7 @@
 			["INPUT_PULLUP", "INPUT_PULLUP"]
 		]
 	},
-		"MY_TOF_I2C_TYPES": {  
+	"MY_TOF_I2C_TYPES": {  
         "menu": [
             ["硬件I2C", "0"],  
             ["软件I2C", "1"]   
