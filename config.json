@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "VL53l1X_TOF400C-4米测距模块",
+		"en": "VL53l1X_TOF400C-4m Distance Sensor Module"
+	},
+	"description": {
+		"zh-cn": "小体积测距模块，测量范围0.1-4米，精度±1cm，支持I2C通讯方式",
+		"en": "Small volume ranging module, measurement range 0.1-4m, accuracy ±1cm, supports I2C and UART communication methods"
+	},
+	"author": "chuangkeswitchyang",
+	"email": "1302600171@qq.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "VL53l1X_TOF400C_4m_Distance_Sensor_Module",
+	"platform": ["win"],
+	"version": "2.0.0",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.3",
+			"board": ["esp8266", "firebeetleesp32", "firebeetleesp32e","leonardo", "mega2560", "esp32", "arduino", "arduinonano"],
+			"main": "main.ts"
+		}
+	}
+}
